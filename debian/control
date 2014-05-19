@@ -1,8 +1,9 @@
 Source: python-anyjson
 Section: python
 Priority: optional
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders: David Watson <dwatson@debian.org>,
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: David Watson <dwatson@debian.org>,
            Michael Fladischer <FladischerMichael@fladi.at>
 Build-Depends: debhelper (>= 8.1.0~),
                python-all (>= 2.6.6-3~),
@@ -15,6 +16,7 @@ X-Python3-Version: >= 3.0
 Homepage: http://bitbucket.org/runeh/anyjson/
 Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/python-anyjson/trunk/
 Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/python-anyjson/trunk/
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
 
 Package: python-anyjson
 Architecture: all
