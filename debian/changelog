@@ -1,3 +1,9 @@
+python-anyjson (0.3.3-1pexip2) pexip; urgency=low
+
+  * Migrate to Stretch
+
+ -- John-Mark Bell <jmb@pexip.com>  Sun, 29 Jul 2018 00:28:36 +0100
+
 python-anyjson (0.3.3-1pexip1) pexip; urgency=low
 
   * Prepare Pexip packaging
