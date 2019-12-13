@@ -1,3 +1,27 @@
+python-anyjson (0.3.3-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Fixed homepage (https)
+  * Fixed VCS URL (https)
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+  * Convert git repository from git-dpm to gbp layout
+
+  [ Piotr Ożarowski ]
+  * Add dh-python to Build-Depends
+
+  [ Sandro Tosi ]
+  * Drop python2 support; Closes: #937576
+  * Add python3-nose to b-d, needed by tests
+  * Simplify debian/rules
+  * debian/patches/py3k.patch
+    - run 2to3 by hand as `use_2to3=True` doesnt seem to work when running
+      setup.py, see https://github.com/pypa/setuptools/issues/1120
+
+ -- Sandro Tosi <morph@debian.org>  Fri, 13 Dec 2019 13:24:41 -0500
+
 python-anyjson (0.3.3-1) unstable; urgency=low
 
   [ Jakub Wilk ]
