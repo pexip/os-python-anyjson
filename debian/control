@@ -16,7 +16,7 @@ X-Python3-Version: >= 3.0
 Homepage: http://bitbucket.org/runeh/anyjson/
 Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/python-anyjson/trunk/
 Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/python-anyjson/trunk/
-XS-Pexip-Upstream: http://ftp.debian.org/debian/ stretch
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ buster
 
 Package: python-anyjson
 Architecture: all
