@@ -6,27 +6,15 @@ XSBC-Pexip-Original-Maintainer: Debian Python Modules Team <python-modules-team@
 XSBC-Pexip-Original-Uploaders: David Watson <dwatson@debian.org>,
            Michael Fladischer <FladischerMichael@fladi.at>
 Build-Depends: debhelper (>= 8.1.0~),
-               python-all (>= 2.6.6-3~),
-               python-setuptools,
+               dh-python,
                python3-all (>= 3.1.2-12~),
-               python3-setuptools
+               python3-setuptools,
+               python3-nose
 Standards-Version: 3.9.4
-X-Python-Version: >= 2.4
-X-Python3-Version: >= 3.0
-Homepage: http://bitbucket.org/runeh/anyjson/
-Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/python-anyjson/trunk/
-Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/python-anyjson/trunk/
+Homepage: https://bitbucket.org/runeh/anyjson/
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-anyjson.git
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-anyjson
 XS-Pexip-Upstream: http://deb.debian.org/debian/ bullseye
-
-Package: python-anyjson
-Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
-Recommends: python (>= 2.6) | python-simplejson
-Description: Common interface for the best available JSON implementation
- Loads whichever is the fastest JSON module installed and provides a uniform
- API regardless of which JSON implementation is used. The exceptions will also
- be the same whichever JSON module is used.
- The ranking of the JSON implementations is based on a benchmark.
 
 Package: python3-anyjson
 Architecture: all
@@ -38,4 +26,3 @@ Description: Common interface for the best available JSON implementation (Python
  The ranking of the JSON implementations is based on a benchmark.
  .
  This package contains the Python 3 version of the library.
-
