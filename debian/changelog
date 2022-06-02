@@ -1,3 +1,9 @@
+python-anyjson (0.3.3-2pexip1) pexip; urgency=medium
+
+  * Initial bullseye build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 02 Jun 2022 14:42:44 +0100
+
 python-anyjson (0.3.3-2) unstable; urgency=medium
 
   [ Ondřej Nový ]
