@@ -2,18 +2,18 @@ Source: python-anyjson
 Section: python
 Priority: optional
 Maintainer: Pexip AS <packaging@pexip.com>
-XSBC-Pexip-Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+XSBC-Pexip-Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
 XSBC-Pexip-Original-Uploaders: David Watson <dwatson@debian.org>,
            Michael Fladischer <FladischerMichael@fladi.at>
-Build-Depends: debhelper (>= 8.1.0~),
+Build-Depends: debhelper-compat (= 13),
                dh-python,
                python3-all (>= 3.1.2-12~),
+               python3-pytest <!nocheck>,
                python3-setuptools,
-               python3-nose
-Standards-Version: 3.9.4
+Standards-Version: 4.6.1
 Homepage: https://bitbucket.org/runeh/anyjson/
-Vcs-Git: https://salsa.debian.org/python-team/modules/python-anyjson.git
-Vcs-Browser: https://salsa.debian.org/python-team/modules/python-anyjson
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-anyjson.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-anyjson
 XS-Pexip-Upstream: http://deb.debian.org/debian/ bookworm
 
 Package: python3-anyjson
